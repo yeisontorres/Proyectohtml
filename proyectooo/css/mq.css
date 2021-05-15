@@ -1,0 +1,52 @@
+/* estilo para smartphones */
+
+@media all and (max-width 767px){
+    
+    contenedor{
+        width: 100%;
+    }
+    
+    .menu-item{
+        display: initial;
+    }
+    
+    .menu-item a div{
+        border-bottom: solid thin white;
+    }
+    
+    nav ul{
+        padding: 0;
+    }
+    
+    .featured{
+        padding: 0 10px;
+    }
+    
+    .fp-video{
+        display: initial;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .ft-art{
+        display: initial;
+        width: 100%;
+        vertical-align: initial;
+        padding: 0 30px;
+        margin: 10px 0;
+        
+        
+    }
+    
+    .art-image, .art-cont{
+        display: initial;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    footer{
+        
+    }
+    
+}

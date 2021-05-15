@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+html {
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;	
+}
+
+
+
+.fp-video,fp-video,.ft-art,.menu-item{
+    display: inline-block;
+}
+
+h1,figure,ul{
+    margin: 0;
+}
+
+h1{
+    font-size: 32px;
+}
+
+
+a{
+    color: white;
+}
+
+
+.contenedor{
+    max-width: 1090px;
+    margin: 0 auto;
+}
+
+
+nav {
+    background-color: #504992;
+    text-align: center;
+}
+
+.menu-item{
+    text-transform: uppercase;
+}
+
+.menu-item a div{
+    padding: 20px;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-item:hover{
+    background-color: #4D2D68;
+}
+
+/* Estilos de la sección featured */
+
+.featured{
+    background-color: #F2F2F2;
+}
+
+.fp-video{
+    width: 55%;
+    padding: 2em;
+}
+.fp-video1{
+    width: 55%;
+    padding: 2em;
+}
+.ft-art{
+    width: 30%;
+    font-size: 20px;
+    padding: 20px;
+    vertical-align: top;
+    font-size: 
+}
+.ft-art1{
+    width: 30%;
+    font-size: 20px;
+    padding: 20px;
+    vertical-align: top;
+    display: inline-block;
+    
+}
+.banner img{
+    
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+/* estilo para los botones */
+
+.boton-container{
+    text-align: center;
+    background-color: #EA6E39;
+    margin: 0 auto;
+}
+
+.boton-container a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.boton-container :hover{
+    background-color: #1FBEA4;
+}
+
+.boton{
+    padding: 15px;
+}
+
+/* Estilo de los articulos */
+
+article{
+    padding: 30px;
+    background-color: #F2F2F2;
+    margin: 20px 0;
+}
+
+.art-image{
+    display: inline-block;
+    width: 210px;
+    margin-right: 10px;
+    
+}
+
+.art-cont{
+    display: inline-block;
+    width: 740px;
+    vertical-align: top;
+}
+
+figcaption{
+    background-color: #1FBEA4;
+    color: #FFF;
+    text-align: center;
+    padding: 5px;
+}
+
+article h2{
+    
+    border-bottom: solid thin black;
+}
+
+.juegos h4{
+
+    font-size: 50px;
+    text-align: center;
+    font-family: cursive;
+    
+}
+
+.juegos img{
+    
+    width: 50;
+    
+}
+
+footer{
+    background-color: #504992;
+    color: #FFF;
+    text-align: center;
+    padding: 35px;
+    
+    
+}
+
+.icon-fa{
+    
+    margin-top: 15px;
+    transform: translateX(-35px);
+    font-size: 25px;
+    height: 0px;
+    margin-bottom: 10px;
+}
+
+.icon-ins{
+    
+    transform: translateY(-10px);
+    font-size: 25px;
+    height: 0px;
+}
+
+.icon-you{
+    
+    transform: translateX(40px)translateY(-10px);
+    font-size: 25px;
+    height: 0px;
+    
+}
